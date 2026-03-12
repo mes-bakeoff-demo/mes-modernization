@@ -80,7 +80,3 @@ This approach builds on work by:
 This is a demonstration created during the Minnesota DHS presentation at MESC 2026. It shows what GitHub-powered procurement could look like — not a production system.
 
 **Want to try this approach?** Fork this repo and adapt it for your state.
-
----
-
-*Built fast. In the open. Because that's the point.*
