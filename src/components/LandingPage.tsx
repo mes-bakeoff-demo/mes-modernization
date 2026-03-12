@@ -34,9 +34,9 @@ const priorArt = [
 ];
 
 const vendorSolutions = [
-  { name: 'Alpha', approach: 'Rules-Based Engine', tech: 'HTML/JS', description: 'Simple, deterministic, auditable', color: '#E3F2FD', url: 'https://mes-bakeoff-demo.github.io/msp-solution-alpha' },
-  { name: 'Beta', approach: 'Decision Tree', tech: 'React', description: 'Visual and interactive', color: '#E8F5E9', url: 'https://mes-bakeoff-demo.github.io/msp-solution-beta' },
-  { name: 'Gamma', approach: 'Form Wizard', tech: 'Vue', description: 'Guided step-by-step', color: '#FFF3E0', url: 'https://mes-bakeoff-demo.github.io/msp-solution-gamma' },
+  { name: 'Alpha', approach: 'Rules-Based Engine', tech: 'HTML/JS', description: 'Simple, deterministic, auditable', color: '#E3F2FD', url: 'https://mes-bakeoff-demo.github.io/msp-solution-alpha', repo: 'https://github.com/mes-bakeoff-demo/msp-solution-alpha' },
+  { name: 'Beta', approach: 'Decision Tree', tech: 'React', description: 'Visual and interactive', color: '#E8F5E9', url: 'https://mes-bakeoff-demo.github.io/msp-solution-beta', repo: 'https://github.com/mes-bakeoff-demo/msp-solution-beta' },
+  { name: 'Gamma', approach: 'Form Wizard', tech: 'Vue', description: 'Guided step-by-step', color: '#FFF3E0', url: 'https://mes-bakeoff-demo.github.io/msp-solution-gamma', repo: 'https://github.com/mes-bakeoff-demo/msp-solution-gamma' },
 ];
 
 
@@ -126,7 +126,10 @@ export default function LandingPage() {
                     <Typography variant="h6" gutterBottom>{vendor.approach}</Typography>
                     <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>{vendor.description}</Typography>
                     <Chip label={vendor.tech} size="small" variant="outlined" sx={{ mb: 2 }} />
-                    <Box><Button variant="contained" size="small" startIcon={<PlayArrowIcon />} href={vendor.url} target="_blank" sx={{ bgcolor: 'primary.main' }}>Try It</Button></Box>
+                                        <Box sx={{ display: 'flex', gap: 1, alignItems: 'center' }}>
+                      <Button variant="contained" size="small" startIcon={<PlayArrowIcon />} href={vendor.url} target="_blank" sx={{ bgcolor: 'primary.main' }}>Try It</Button>
+                      <Link href={vendor.repo} target="_blank" sx={{ fontSize: '0.75rem', color: 'text.secondary' }}>View Code</Link>
+                    </Box>
                   </CardContent>
                 </Card>
               </Grid>
