@@ -1,6 +1,6 @@
 # Minnesota MES Modernization Hub
 
-> 🍳 **The Recipe Book** — This is the central hub for Minnesota's challenge-based MES modernization initiative.
+> **The Recipe Book** — This is the central hub for Minnesota's challenge-based MES modernization initiative.
 
 ## What Is This?
 
@@ -21,8 +21,8 @@ See [Issues](../../issues) for the current backlog of Slices and Layers.
 
 | Type | Description |
 |------|-------------|
-| 🍕 **Slice** | End-to-end use case that delivers value users can "taste" |
-| 🍰 **Layer** | Enabling capability that supports slice delivery |
+| **Slice** | End-to-end use case that delivers value users can "taste" |
+| **Layer** | Enabling capability that supports slice delivery |
 
 ### Current Slices
 
