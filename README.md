@@ -27,11 +27,11 @@ See [Issues](../../issues) for the current backlog of Slices and Layers.
 ### Current Slices
 
 - **MSP Auto-Enrollment** — Automatically identify Medicaid beneficiaries eligible for Medicare Savings Program
-  - [RFP Repo](https://github.com/mn-bakeoff-demo/rfp-msp-auto-enrollment)
+  - [RFP Repo](https://github.com/mes-bakeoff-demo/rfp-msp-auto-enrollment)
   - Solutions in progress:
-    - [Alpha (Rules-based)](https://github.com/mn-bakeoff-demo/msp-solution-alpha)
-    - [Beta (Decision Tree)](https://github.com/mn-bakeoff-demo/msp-solution-beta)
-    - [Gamma (Form Wizard)](https://github.com/mn-bakeoff-demo/msp-solution-gamma)
+    - [Alpha (Rules-based)](https://github.com/mes-bakeoff-demo/msp-solution-alpha)
+    - [Beta (Decision Tree)](https://github.com/mes-bakeoff-demo/msp-solution-beta)
+    - [Gamma (Form Wizard)](https://github.com/mes-bakeoff-demo/msp-solution-gamma)
 
 ## How It Works on GitHub
 

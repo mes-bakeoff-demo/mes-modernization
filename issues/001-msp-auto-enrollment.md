@@ -44,9 +44,9 @@ Minnesota has identified 30-40 eligibility scenarios in their backlog. MSP Auto-
 ## Vendor Solutions
 | Vendor | Approach | Repo | Demo |
 |--------|----------|------|------|
-| Alpha | Rules-based engine | [msp-solution-alpha](../../../msp-solution-alpha) | [Live](https://mn-bakeoff-demo.github.io/msp-solution-alpha) |
-| Beta | Decision tree UI | [msp-solution-beta](../../../msp-solution-beta) | [Live](https://mn-bakeoff-demo.github.io/msp-solution-beta) |
-| Gamma | Form wizard | [msp-solution-gamma](../../../msp-solution-gamma) | [Live](https://mn-bakeoff-demo.github.io/msp-solution-gamma) |
+| Alpha | Rules-based engine | [msp-solution-alpha](../../../msp-solution-alpha) | [Live](https://mes-bakeoff-demo.github.io/msp-solution-alpha) |
+| Beta | Decision tree UI | [msp-solution-beta](../../../msp-solution-beta) | [Live](https://mes-bakeoff-demo.github.io/msp-solution-beta) |
+| Gamma | Form wizard | [msp-solution-gamma](../../../msp-solution-gamma) | [Live](https://mes-bakeoff-demo.github.io/msp-solution-gamma) |
 
 ## Definition of Done
 - [x] Working prototype deployed
@@ -55,4 +55,4 @@ Minnesota has identified 30-40 eligibility scenarios in their backlog. MSP Auto-
 - [ ] Demo conducted
 
 ## RFP Details
-See [rfp-msp-auto-enrollment](https://github.com/mn-bakeoff-demo/rfp-msp-auto-enrollment) for full RFP.
+See [rfp-msp-auto-enrollment](https://github.com/mes-bakeoff-demo/rfp-msp-auto-enrollment) for full RFP.
