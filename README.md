@@ -77,6 +77,8 @@ This approach builds on work by:
 
 ## About This Demo
 
-This is a demonstration created during the Minnesota DHS presentation at MESC 2026. It shows what GitHub-powered procurement could look like — not a production system.
+This is a demonstration created during the Minnesota DHS presentation at HIT Connect 2026. It shows what GitHub-powered procurement could look like — not a production system.
+
+**Built with [Kiro](https://kiro.dev)** — This entire demo (6 repos, 3 prototypes, 12 backlog items) was built in 2 hours using Kiro, an agentic IDE from AWS.
 
 **Want to try this approach?** Fork this repo and adapt it for your state.
