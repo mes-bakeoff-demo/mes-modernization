@@ -112,8 +112,11 @@ export default function LandingPage() {
         <Container maxWidth="lg">
           <Typography variant="overline" sx={{ opacity: 0.7 }}>Part 3</Typography>
           <Typography variant="h4" gutterBottom>What We Built</Typography>
-          <Typography variant="body1" sx={{ opacity: 0.9, mb: 2, maxWidth: 600 }}>A GitHub Organization demonstrating the bake-off model. Three approaches to the same problem: MSP Auto-Enrollment.</Typography>
-          <Button variant="contained" color="secondary" size="small" startIcon={<GitHubIcon />} href="https://github.com/mes-bakeoff-demo" target="_blank" sx={{ mb: 4 }}>View on GitHub</Button>
+          <Typography variant="body1" sx={{ opacity: 0.9, mb: 2, maxWidth: 600 }}>A GitHub Organization demonstrating the bake-off model. Issues become the backlog. Vendors compete on working software.</Typography>
+          <Box sx={{ display: 'flex', gap: 2, mb: 4, flexWrap: 'wrap' }}>
+            <Button variant="contained" color="secondary" size="small" startIcon={<GitHubIcon />} href="https://github.com/mes-bakeoff-demo" target="_blank">View Org</Button>
+            <Button variant="outlined" size="small" href="https://github.com/mes-bakeoff-demo/mes-modernization/issues" target="_blank" sx={{ color: 'white', borderColor: 'rgba(255,255,255,0.5)' }}>View Backlog</Button>
+          </Box>
           <Grid container spacing={3}>
             {vendorSolutions.map((vendor, i) => (
               <Grid size={{ xs: 12, md: 4 }} key={i}>
