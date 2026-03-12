@@ -153,12 +153,26 @@ export default function LandingPage() {
         </Container>
       </Box>
 
+      <Box sx={{ py: 5, bgcolor: 'grey.100' }}>
+        <Container maxWidth="md" sx={{ textAlign: 'center' }}>
+          <Typography variant="overline" color="text.secondary">How It Was Built</Typography>
+          <Typography variant="h5" gutterBottom>Built Entirely with Kiro</Typography>
+          <Typography variant="body1" color="text.secondary" sx={{ mb: 3, maxWidth: 600, mx: 'auto' }}>
+            This entire demo — the landing site, three vendor prototypes, GitHub organization, 12 backlog items, and all deployments — was built using <Link href="https://kiro.dev" target="_blank" sx={{ color: 'primary.main' }}>Kiro</Link>, an agentic IDE from AWS. Two hours of conversation, zero context switching.
+          </Typography>
+          <Typography variant="body2" color="text.secondary" sx={{ opacity: 0.7 }}>
+            Kiro handled the code generation, file management, git operations, GitHub CLI commands, and deployments — all from natural language prompts.
+          </Typography>
+        </Container>
+      </Box>
+
       <Box sx={{ bgcolor: 'grey.900', color: 'white', py: 4 }}>
         <Container sx={{ textAlign: 'center' }}>
           <Typography variant="body2" sx={{ opacity: 0.9, mb: 1 }}>Demo by Nick Aretakis</Typography>
-          <Typography variant="caption" display="block" sx={{ opacity: 0.6, mb: 2 }}>Inspired by Minnesota DHS's presentation at HIT Connect 2026. Not an official government project.</Typography>
+          <Typography variant="caption" display="block" sx={{ opacity: 0.6, mb: 2 }}>Inspired by Minnesota DHS's presentation at HIT Connect 2026. Built with Kiro. Not an official government project.</Typography>
           <Box sx={{ display: 'flex', gap: 3, justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link href="https://github.com/mes-bakeoff-demo" target="_blank" sx={{ color: 'white', opacity: 0.7, fontSize: '0.875rem' }}>GitHub</Link>
+            <Link href="https://kiro.dev" target="_blank" sx={{ color: 'white', opacity: 0.7, fontSize: '0.875rem' }}>Kiro</Link>
             <Link href="https://github.com/akhealth/EIS-Modernization" target="_blank" sx={{ color: 'white', opacity: 0.7, fontSize: '0.875rem' }}>Alaska's Work</Link>
             <Link href="https://si-delivery.com/starter-kit/" target="_blank" sx={{ color: 'white', opacity: 0.7, fontSize: '0.875rem' }}>SI Delivery</Link>
           </Box>
