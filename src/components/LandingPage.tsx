@@ -56,7 +56,7 @@ export default function LandingPage() {
           <Chip label="Independent Demo — Not an Official Government Project" size="small" sx={{ mb: 2, bgcolor: 'rgba(255,255,255,0.15)', color: 'white' }} />
           <Typography variant="overline" sx={{ opacity: 0.7, letterSpacing: 2, display: 'block' }}>Inspired by HIT Connect 2026</Typography>
           <Typography variant="h3" component="h1" gutterBottom fontWeight="bold" sx={{ mt: 1 }}>What If We Actually Did It?</Typography>
-          <Typography variant="h6" sx={{ opacity: 0.9, mb: 2 }}>6 repos. 3 working prototypes. Built in under an hour.</Typography>
+          <Typography variant="h6" sx={{ opacity: 0.9, mb: 2 }}>6 repos. 3 working prototypes. 12 backlog items. Built in 2 hours.</Typography>
           <Typography variant="body1" sx={{ opacity: 0.8, maxWidth: 500, mx: 'auto' }}>Minnesota presented a vision for challenge-based procurement. This demo explores what that could look like — by actually building it.</Typography>
         </Container>
       </Box>
@@ -138,7 +138,7 @@ export default function LandingPage() {
       <Box sx={{ py: 6 }}>
         <Container maxWidth="md" sx={{ textAlign: 'center' }}>
           <Typography variant="h4" gutterBottom>The Point</Typography>
-          <Typography variant="body1" color="text.secondary" sx={{ mb: 4 }}>This demo — GitHub org, three prototypes, this site — was built in under an hour. If that's possible, imagine what vendors could build in a week with real requirements.</Typography>
+          <Typography variant="body1" color="text.secondary" sx={{ mb: 4 }}>This demo — GitHub org, three prototypes, this site — was built in 2 hours. Hour one during the conference, hour two to deploy everything you see here. If that's possible, imagine what vendors could build in a week with real requirements.</Typography>
           <Grid container spacing={2} justifyContent="center" sx={{ mb: 4 }}>
             {[{ label: 'Repos', value: '6' }, { label: 'Prototypes', value: '3' }, { label: 'Proposal Pages', value: '0' }].map((stat, i) => (
               <Grid size={{ xs: 4, sm: 3 }} key={i}>
